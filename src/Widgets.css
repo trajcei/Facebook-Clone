@@ -1,0 +1,55 @@
+.widgets{
+    width:340px;
+    height:100%;
+}
+
+.widget_top{
+    border-bottom:1px solid lightgray;
+    padding:10px;
+    height:25%;
+    width:100%;
+}
+
+.widget_mid{
+    border-bottom:1px solid lightgray;
+    padding: 10px;
+    height:10%;
+}
+
+.widget_bot{
+    padding: 10px;
+}
+
+.widget_mid > img{
+    margin-top: 10px;
+    width:30px;
+    height:30px;
+    padding-left:15px;
+}
+
+.widget_top > img{
+    padding:15px;
+}
+
+.widget_top > p{
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+}
+
+.widget_top > text{
+    padding-left:15px;
+    font-style: italic;
+}
+
+.widget_mid > p{
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+}
+
+.widget_bot > p{
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+}
